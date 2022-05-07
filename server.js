@@ -5,7 +5,7 @@ const path = require("path");
 const app = express();
 
 // Set static folder
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "Develop", "public")));
 
 //Run on PORT 3001
 const PORT = process.env.PORT || 3001;
